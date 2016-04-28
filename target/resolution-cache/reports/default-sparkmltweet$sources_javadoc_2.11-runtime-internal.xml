@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="sparkmltweet$sources_javadoc_2.11"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160428132129"/>
+	<dependencies>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090319160832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="4456" time="0" location="/Users/sreedevi/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="214274" time="0" location="/Users/sreedevi/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="/Users/sreedevi/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/Users/sreedevi/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.databricks" name="spark-csv_2.11">
+			<revision name="1.2.0" status="release" pubdate="20150806203909" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/databricks/spark-csv" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="Apache License, Verision 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3715" time="0" location="/Users/sreedevi/.ivy2/cache/com.databricks/spark-csv_2.11/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.2.0/spark-csv_2.11-1.2.0.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spark-csv_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17510" time="0" location="/Users/sreedevi/.ivy2/cache/com.databricks/spark-csv_2.11/srcs/spark-csv_2.11-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.2.0/spark-csv_2.11-1.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-csv_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="395838" time="0" location="/Users/sreedevi/.ivy2/cache/com.databricks/spark-csv_2.11/docs/spark-csv_2.11-1.2.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.2.0/spark-csv_2.11-1.2.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-csv_2.11" type="jar" ext="jar" status="no" details="" size="112631" time="0" location="/Users/sreedevi/.ivy2/cache/com.databricks/spark-csv_2.11/jars/spark-csv_2.11-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.2.0/spark-csv_2.11-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.univocity" name="univocity-parsers">
+			<revision name="1.5.1" status="release" pubdate="20150408185631" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/uniVocity/univocity-parsers" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3586" time="0" location="/Users/sreedevi/.ivy2/cache/com.univocity/univocity-parsers/ivy-1.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.5.1" rev-constraint-default="1.5.1" rev-constraint-dynamic="1.5.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="univocity-parsers" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="667592" time="0" location="/Users/sreedevi/.ivy2/cache/com.univocity/univocity-parsers/docs/univocity-parsers-1.5.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="univocity-parsers" type="jar" ext="jar" status="no" details="" size="148962" time="0" location="/Users/sreedevi/.ivy2/cache/com.univocity/univocity-parsers/jars/univocity-parsers-1.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1.jar"/>
+					</artifact>
+					<artifact name="univocity-parsers" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171854" time="0" location="/Users/sreedevi/.ivy2/cache/com.univocity/univocity-parsers/srcs/univocity-parsers-1.5.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-csv">
+			<revision name="1.1" status="release" pubdate="20141116154846" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-csv/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<metadata-artifact status="no" details="" size="10745" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.commons/commons-csv/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-csv" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="72048" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.commons/commons-csv/docs/commons-csv-1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-csv" type="jar" ext="jar" status="no" details="" size="36888" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.commons/commons-csv/jars/commons-csv-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar"/>
+					</artifact>
+					<artifact name="commons-csv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38045" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.commons/commons-csv/srcs/commons-csv-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.3" status="release" pubdate="20140811194157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3255" time="0" location="/Users/sreedevi/.ivy2/cache/com.google.code.gson/gson/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gson" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="262043" time="0" location="/Users/sreedevi/.ivy2/cache/com.google.code.gson/gson/docs/gson-2.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="206853" time="0" location="/Users/sreedevi/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3.jar"/>
+					</artifact>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="139767" time="0" location="/Users/sreedevi/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-twitter_2.11">
+			<revision name="1.4.1" status="release" pubdate="20150708195522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="45615" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.11/1.4.1/spark-streaming-twitter_2.11-1.4.1.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spark-streaming-twitter_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="360028" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/docs/spark-streaming-twitter_2.11-1.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.11/1.4.1/spark-streaming-twitter_2.11-1.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-twitter_2.11" type="jar" ext="jar" status="no" details="" size="23140" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/jars/spark-streaming-twitter_2.11-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.11/1.4.1/spark-streaming-twitter_2.11-1.4.1.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-twitter_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10258" time="0" location="/Users/sreedevi/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/srcs/spark-streaming-twitter_2.11-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.11/1.4.1/spark-streaming-twitter_2.11-1.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spark-project.spark" name="unused">
+			<revision name="1.0.0" status="release" pubdate="20141022030005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2849" time="0" location="/Users/sreedevi/.ivy2/cache/org.spark-project.spark/unused/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="unused" type="jar" ext="jar" status="no" details="" size="2777" time="0" location="/Users/sreedevi/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar"/>
+					</artifact>
+					<artifact name="unused" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="21863" time="0" location="/Users/sreedevi/.ivy2/cache/org.spark-project.spark/unused/docs/unused-1.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="unused" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="594" time="0" location="/Users/sreedevi/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.twitter4j" name="twitter4j-stream">
+			<revision name="3.0.3" status="release" pubdate="20121223071417" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3442" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="twitter4j-stream" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="124636" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-stream/docs/twitter4j-stream-3.0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="twitter4j-stream" type="jar" ext="jar" status="no" details="" size="56307" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-stream/jars/twitter4j-stream-3.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar"/>
+					</artifact>
+					<artifact name="twitter4j-stream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38224" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-stream/srcs/twitter4j-stream-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.twitter4j" name="twitter4j-core">
+			<revision name="3.0.3" status="release" pubdate="20121223071256" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266998" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-core/srcs/twitter4j-core-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3-sources.jar"/>
+					</artifact>
+					<artifact name="twitter4j-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="771826" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-core/docs/twitter4j-core-3.0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="twitter4j-core" type="jar" ext="jar" status="no" details="" size="284077" time="0" location="/Users/sreedevi/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-3.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622161702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/sreedevi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="sparkmltweet$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/sreedevi/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="22812957" time="0" location="/Users/sreedevi/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/sreedevi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
